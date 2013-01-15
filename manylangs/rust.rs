@@ -5,6 +5,7 @@ fn main() {
 	  0 => io::println("FizzBuzz"),
 	  1 => io::println("Fizz"),
           2 => io::println("Buzz"),
-	  _ => io::println(i)
+	  _ => io::println(fmt!("%d",i))
 	}
+    }
 }
